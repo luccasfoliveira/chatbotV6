@@ -19,6 +19,7 @@ Para rodar o projeto utilizando Docker, siga os passos abaixo:
 
   - docker build -t chatbot . 
   - docker run -it --rm chatbot:latest
+  - Entre em Network URL
 
 ## Rodar Localmente
 
