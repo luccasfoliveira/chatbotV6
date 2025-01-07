@@ -7,6 +7,11 @@ Este projeto é um chatbot simples que pode ser executado localmente ou em um co
 
 ---
 
+## Crie o arquivo .env e coloque sua:
+
+ - GROQ_API_KEY=""
+ - MODEL_EMBEDDINGS=all-MiniLM-L6-v2
+
 ## Rodar no Docker
 
 Para rodar o projeto utilizando Docker, siga os passos abaixo:
