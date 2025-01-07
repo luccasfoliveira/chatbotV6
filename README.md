@@ -22,3 +22,14 @@ Para rodar o projeto localmente, siga os passos abaixo:
  - source venv/bin/activate
  - pip install -r requirements.txt
  - streamlit run app.py 
+
+## Testes:
+
+### Salva:
+ - É verdade que o vôlei tem 6 jogadores em quadra.
+ - Uma verdade, a terra não é plana.
+
+ - Existe bola quadrada, isso é um fato interessante
+
+### Não salva:
+ - Existe bola quadrada!
