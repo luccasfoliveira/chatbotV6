@@ -1,8 +1,7 @@
 from langchain_groq import ChatGroq
-import os
+from config.config import GROQ_API_KEY, MODEL_LLM
 
-groq_api_key = os.getenv("GROQ_API_KEY")
-llm = ChatGroq(api_key=groq_api_key, model="llama-3.1-70b-versatile", temperature=0.5)
+llm = ChatGroq(api_key=GROQ_API_KEY, model=MODEL_LLM, temperature=0.5)
 
 def chatbot_logic(state: dict) -> dict:
     return {"messages": [llm.invoke(state["messages"])]}
