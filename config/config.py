@@ -5,3 +5,4 @@ load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 MODEL_EMBEDDINGS = os.getenv("MODEL_EMBEDDINGS")
+MODEL_LLM = os.getenv("MODEL_LLM")
