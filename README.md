@@ -11,6 +11,7 @@ Este projeto é um chatbot simples que pode ser executado localmente ou em um co
 
  - GROQ_API_KEY=""
  - MODEL_EMBEDDINGS=all-MiniLM-L6-v2
+ - MODEL_LLM=llama-3.1-70b-versatile
 
 ## Rodar no Docker
 
